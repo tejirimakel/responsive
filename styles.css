@@ -26,6 +26,27 @@ ul.nav-links {
     padding: 0;
 }
 
+@media screen and (max-width: 375px){
+div.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 6rem;
+    width: 100vw;
+    background: #F1F3F4;
+}
+
+div.logo {
+    font-size: 1.5rem;
+    color: #18252C;
+}
+
+ul.nav-links {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+}
+
 
 ul li {
     margin: 0 2vw;
